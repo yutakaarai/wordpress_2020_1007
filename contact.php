@@ -1,21 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>ビジネスサイト・企業向け 無料ホームページテンプレート tp_biz54</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="ここにサイト説明を入れます">
-<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
-<link rel="stylesheet" href="css/style.css">
-<script src="js/openclose.js"></script>
-<script src="js/fixmenu_pagetop.js"></script>
-<script src="js/ddmenu_min.js"></script>
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-</head>
+
 
 <body>
 
@@ -143,6 +127,16 @@
 
 </footer>
 
+	<aside id="mainimg">
+	<?php if( is_home()): ?>
+<div class="slide0">slide0</div>
+<div class="slide1">slide</div>
+<div class="slide2">slide2</div>
+<div class="slide3">slide3</div>
+	<?php endif;?>
+</aside>
+	
+	
 <!--ページの上部に戻る「↑」ボタン-->
 <p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
 

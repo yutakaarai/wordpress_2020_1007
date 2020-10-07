@@ -124,15 +124,14 @@
 </footer>
 
 <!--背景スライドショー-->
-
+<?php if(is_home()): ?>
 <aside id="mainimg">
-	<?php if(is_home()):?>
 <div class="slide0">slide0</div>
 <div class="slide1">slide</div>
 <div class="slide2">slide2</div>
 <div class="slide3">slide3</div>
-	<?php endif;?>
 </aside>
+<?php endif;?>
 
 
 <!--ページの上部に戻る「↑」ボタン-->

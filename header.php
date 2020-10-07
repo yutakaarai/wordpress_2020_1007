@@ -23,16 +23,16 @@
 <![endif]-->
 </head>
 
-<body class="home">
+<body <?php if ( is_home() ): ?>class="home" <?php endif; ?>>
 
 <div id="container">
 
 <header>
-<h1 id="logo"><a href="index.html"><img src="<?php echo get_template_directory_uri();?>/images/logo.png" alt="SAMPLE COMPANY "></a></h1>
+<h1 id="logo"><a href="index.php"><img src="<?php echo get_template_directory_uri();?>/images/logo.png" alt="SAMPLE COMPANY "></a></h1>
 <!--PC用（901px以上端末）メニュー-->
 <nav id="menubar">
 <ul>
-<li><a href="page.php">Company</a></li>
+<li><a href="<?php echo get_permalink(41) ?>">Company</a></li>
 <li class="ddmenu-title">Service
 	<ul class="ddmenu">
 	<li><a href="service.php">サービスメニュー</a></li>
@@ -50,12 +50,12 @@
 <li><a href="company.html">Company</a></li>
 <li id="menubar_hdr2" class="close">Service
 	<ul id="menubar-s2">
-	<li><a href="service.html">サービスメニュー</a></li>
-	<li><a href="service.html">サービスメニュー</a></li>
-	<li><a href="service.html">サービスメニュー</a></li>
+	<li><a href="service.php">サービスメニュー</a></li>
+	<li><a href="service.php">サービスメニュー</a></li>
+	<li><a href="service.php">サービスメニュー</a></li>
 	</ul>
 </li>
-<li><a href="recruit.html">Recruit</a></li>
+<li><a href="recruit.php">Recruit</a></li>
 <li><a href="contact.php">Contact</a></li>
 </ul>
 </nav>

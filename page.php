@@ -22,16 +22,6 @@ if(is_page('company')){
 	
 
 
-
-
-
-
-
-
-
-
-
-
 </section>
 
 <section>
